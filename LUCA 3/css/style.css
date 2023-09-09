@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'Filosofia OT Regular';
+    src: url('../fonts/FilosofiaOTRegular/Filosofia\ OT\ Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    background-image: url(../images/main_bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+
+}
+
+.home_Page{
+    width: 100%;
+    position: relative;
+
+
+}
+
+
+.slideshow-container  {
+    margin: auto;
+    display: flex;
+   
+    width: 100%;
+    background-color: black;
+    position: relative;
+
+}
+.mySlides{
+    display: none;
+    
+}
+
+.fade{
+    width: 100%;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+ @keyframes fade 
+    {
+        from {opacity: .2}
+        to {opacity: 1}
+        
+    }
+  
+.logo
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 21;
+}
+
+
+.site_header
+{
+    padding: 0.75em;
+    position: fixed;
+    z-index: 19;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.625em;
+    
+
+}
+.home_nav_wrap{
+    font-size: 1.375em;
+    display: flex;
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    color: white;
+    width: 95%;
+    position: fixed;
+    
+    
+}
+.home_nav{
+    color: white;
+    position: fixed;
+
+}
+.home_nav a {
+    color: white;
+    text-decoration: none;
+    
+}
+.res_but  
+{
+    color: black;
+    padding: 12px;
+    font-family: Filosofia OT Regular;
+    font-size: 25px;
+}
+
+.home-footer
+{
+  max-width: 1023px;
+  top: 800px;
+  left: 1.125em;
+  right: 1.125em;
+  font-size: 1.375em;
+  display: -webkit-box;
+  justify-content: space-between;
+  position:absolute;
+  z-index: 2;
+  color: white;
+  font-family: Filosofia OT Regular;
+  
+}
+
+
+
+.home-footer-right 
+{
+    padding-left: 485px;
+    
+}
+
+
+#white_box
+{
+    
+    background-color: white;
+    opacity: .7;
+    text-align: center;
+    z-index: 1;
+    padding: 50px;
+    height: 70px;
+    font-size: 1em;
+    font-weight: 400;
+    min-height: 50vh;
+    
+
+
+}
+
+
+h1
+{
+    margin: 70px;
+    position: relative;
+    align-items: center;
+    font-family: 'Filosofia OT Regular';
+}
+
+ logo_wrapper{
+    position: relative;
+    z-index: 2;
+
+ }
+
+ site_title{
+    position: relative;
+    top: 400px;
+    
+ }
+
+ .restaurant_container 
+ {
+    display: flex;
+ }
+
+ .left_restaurant
+ {
+    flex: 50%;
+    max-height: 509px;
+    min-height: 508px;
+    background-color: rgba(228, 84, 56, 0.7);
+ }
+ .right_restaurant
+ {
+    flex: 50%;
+    height: 100%;
+ }
+ .subhead_restaurant
+ {
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 25%;
+    height: 100px;
+    width: 300px;
+    padding-bottom: 0;
+ }
+ .text_block
+ {
+    text-align: center;
+    line-height: 1.33;
+    margin: 1.33em;
+    font-size: 20px;
+    font-family: 'Filosofia OT Regular';
+ }
+ 
+ .booking
+ {
+    align-items: center;
+    padding-left: 38%;
+ }
+ 
+ .button_book{
+    
+       padding: 15px 45px;
+       font-family: 'Filosofia OT Regular';
+       display: inline-block;
+       text-decoration: none;
+       border: thin black 1px;
+       text-align: center;
+       font-size: 18px;
+       background-color: transparent;
+        
+      
+  }
+  
+  .button_book:hover {
+    background-color: white;
+    border: none;
+    transition: .5s;
+  }
+  
+
+  .right_img img
+  {
+    width: 100%;
+    height: 509px;
+    object-fit: cover;
+  }
+  .contact_section
+  {
+    position: relative;
+    background-color: #e9e3a4;
+    padding: 4.5rem 2.125rem 2.125rem;
+
+  }
+
+  .about_club
+  {
+    text-align: center;
+    font-family: 'Filosofia OT Regular';
+  }
+
+  .form
+  {
+    font-family: 'Filosofia OT Regular';
+  }
+  .subscribe
+  {
+    padding-top: 20px;
+
+  }
